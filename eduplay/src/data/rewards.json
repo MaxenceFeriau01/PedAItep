@@ -1,0 +1,14 @@
+[
+  { "id": "coloriage_soleil",      "title": "Coloriage Soleil",       "emoji": "☀️",  "type": "drawing",  "cost": 5,   "tier": 1, "desc": "Un beau soleil souriant avec des rayons à colorier !" },
+  { "id": "coloriage_fleurs",      "title": "Coloriage Fleurs",        "emoji": "🌸",  "type": "drawing",  "cost": 5,   "tier": 1, "desc": "Un bouquet de fleurs rigolotes à colorier !" },
+  { "id": "labyrinthe_facile",     "title": "Labyrinthe du lapin",     "emoji": "🐰",  "type": "activity", "cost": 15,  "tier": 2, "desc": "Aide le lapin à trouver sa carotte en traçant le chemin !" },
+  { "id": "coloriage_arc_en_ciel", "title": "Arc-en-ciel magique",     "emoji": "🌈",  "type": "drawing",  "cost": 15,  "tier": 2, "desc": "Un arc-en-ciel avec des nuages à colorier !" },
+  { "id": "relier_points",         "title": "Relier les points",       "emoji": "🐟",  "type": "activity", "cost": 30,  "tier": 3, "desc": "Relie les points de 1 à 20 pour découvrir l'animal caché !" },
+  { "id": "coloriage_jungle",      "title": "La jungle",               "emoji": "🦁",  "type": "drawing",  "cost": 30,  "tier": 3, "desc": "Une jungle pleine d'animaux rigolos à colorier !" },
+  { "id": "coloriage_robot",       "title": "Le robot rigolo",         "emoji": "🤖",  "type": "drawing",  "cost": 50,  "tier": 4, "desc": "Un robot avec plein de boutons à colorier !" },
+  { "id": "labyrinthe_difficile",  "title": "Labyrinthe du château",   "emoji": "🏰",  "type": "activity", "cost": 50,  "tier": 4, "desc": "Un labyrinthe plus difficile dans un château enchanté !" },
+  { "id": "coloriage_dragon",      "title": "Le dragon magique",       "emoji": "🐉",  "type": "drawing",  "cost": 75,  "tier": 5, "desc": "Un magnifique dragon avec des écailles à colorier !" },
+  { "id": "imagier_anglais",       "title": "Mon imagier anglais",     "emoji": "🌐",  "type": "activity", "cost": 75,  "tier": 5, "desc": "Dessine et colorie ton propre imagier anglais-français !" },
+  { "id": "diplome_champion",      "title": "Diplôme de Champion",     "emoji": "🏆",  "type": "diploma",  "cost": 100, "tier": 6, "desc": "Ton diplôme officiel de Super Champion à imprimer !" },
+  { "id": "coloriage_licorne",     "title": "La licorne enchantée",    "emoji": "🦄",  "type": "drawing",  "cost": 100, "tier": 6, "desc": "Une licorne magique avec une crinière colorée à décorer !" }
+]

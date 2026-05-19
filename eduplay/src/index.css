@@ -98,3 +98,43 @@ body {
 @media (min-width: 1300px) {
   .games-grid { grid-template-columns: repeat(4, 1fr) !important; }
 }
+
+/* ── NAV DESKTOP ─────────────────────────────────────────────── */
+.desktop-nav {
+  display: none; /* caché sur mobile */
+}
+
+.desktop-nav-item {
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  border: 1.5px solid transparent;
+  white-space: nowrap;
+}
+.desktop-nav-item:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+}
+.desktop-nav-item.active {
+  color: var(--gold);
+  background: rgba(255,215,61,0.1);
+  border-color: rgba(255,215,61,0.25);
+}
+
+@media (min-width: 700px) {
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .bottom-nav {
+    display: none; /* remplacée par la nav desktop */
+  }
+  .page {
+    padding-bottom: 16px; /* plus besoin de place pour la bottom nav */
+  }
+}
