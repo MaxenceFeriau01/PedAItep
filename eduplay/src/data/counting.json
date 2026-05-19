@@ -1,0 +1,13 @@
+{
+  "id": "counting",
+  "rounds": [
+    { "animal": "🐱", "name": "chats",       "count": 3, "choices": [2,3,4] },
+    { "animal": "🐶", "name": "chiens",      "count": 5, "choices": [4,5,6] },
+    { "animal": "🐸", "name": "grenouilles", "count": 2, "choices": [1,2,3] },
+    { "animal": "🦋", "name": "papillons",   "count": 4, "choices": [3,4,5] },
+    { "animal": "🐢", "name": "tortues",     "count": 6, "choices": [5,6,7] },
+    { "animal": "🐰", "name": "lapins",      "count": 1, "choices": [1,2,3] },
+    { "animal": "🐦", "name": "oiseaux",     "count": 7, "choices": [6,7,8] },
+    { "animal": "🐠", "name": "poissons",    "count": 3, "choices": [2,3,5] }
+  ]
+}

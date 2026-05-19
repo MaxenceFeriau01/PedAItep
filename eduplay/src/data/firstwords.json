@@ -1,0 +1,15 @@
+{
+  "id": "firstwords",
+  "rounds": [
+    { "emoji": "🐱", "french": "chat",    "english": "cat",    "choices": ["cat","dog","bird"] },
+    { "emoji": "🐶", "french": "chien",   "english": "dog",    "choices": ["cat","dog","fish"] },
+    { "emoji": "🌳", "french": "arbre",   "english": "tree",   "choices": ["tree","flower","sun"] },
+    { "emoji": "🌞", "french": "soleil",  "english": "sun",    "choices": ["moon","sun","star"] },
+    { "emoji": "🍎", "french": "pomme",   "english": "apple",  "choices": ["apple","banana","orange"] },
+    { "emoji": "🏠", "french": "maison",  "english": "house",  "choices": ["house","car","school"] },
+    { "emoji": "📚", "french": "livre",   "english": "book",   "choices": ["book","pen","bag"] },
+    { "emoji": "🚗", "french": "voiture", "english": "car",    "choices": ["car","bus","train"] },
+    { "emoji": "🌸", "french": "fleur",   "english": "flower", "choices": ["tree","flower","grass"] },
+    { "emoji": "🦋", "french": "papillon","english": "butterfly","choices":["butterfly","bee","bird"]}
+  ]
+}

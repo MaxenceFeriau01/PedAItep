@@ -1,0 +1,82 @@
+[
+  {
+    "id": "color_master",
+    "title": "Maître des couleurs",
+    "emoji": "🎨",
+    "desc": "10 parties parfaites en couleurs",
+    "condition": { "gameId": "colors", "perfectGames": 2 },
+    "rewardType": "drawing",
+    "rewardTitle": "Coloriage : Arc-en-ciel magique",
+    "rewardDesc": "Un beau arc-en-ciel avec des nuages à colorier !"
+  },
+  {
+    "id": "math_genius",
+    "title": "Petit génie",
+    "emoji": "🧮",
+    "condition": { "cat": "maths", "totalStars": 20 },
+    "desc": "20 étoiles en maths",
+    "rewardType": "activity",
+    "rewardTitle": "Activité : Labyrinthe des chiffres",
+    "rewardDesc": "Aide le lapin à retrouver sa carotte en suivant les chiffres !"
+  },
+  {
+    "id": "animal_friend",
+    "title": "Ami des animaux",
+    "emoji": "🐾",
+    "condition": { "gameId": "memory", "totalPlays": 3 },
+    "desc": "Mémory joué 3 fois",
+    "rewardType": "drawing",
+    "rewardTitle": "Coloriage : La jungle",
+    "rewardDesc": "Une jungle pleine d'animaux rigolos à colorier !"
+  },
+  {
+    "id": "streak_5",
+    "title": "5 jours de suite !",
+    "emoji": "🔥",
+    "condition": { "streak": 5 },
+    "desc": "Jouer 5 jours consécutifs",
+    "rewardType": "activity",
+    "rewardTitle": "Activité : Relie les points",
+    "rewardDesc": "Relie les points de 1 à 20 pour découvrir l'animal caché !"
+  },
+  {
+    "id": "french_reader",
+    "title": "Super lecteur",
+    "emoji": "📚",
+    "condition": { "cat": "francais", "totalStars": 25 },
+    "desc": "25 étoiles en français",
+    "rewardType": "drawing",
+    "rewardTitle": "Coloriage : La bibliothèque enchantée",
+    "rewardDesc": "Des livres magiques qui s'envolent !"
+  },
+  {
+    "id": "champion",
+    "title": "Champion !",
+    "emoji": "🏅",
+    "condition": { "totalStars": 100 },
+    "desc": "100 étoiles au total",
+    "rewardType": "activity",
+    "rewardTitle": "Activité : Mon diplôme de champion",
+    "rewardDesc": "Imprime et remplis ton diplôme de super champion !"
+  },
+  {
+    "id": "logic_master",
+    "title": "Maître logique",
+    "emoji": "🧩",
+    "condition": { "cat": "logique", "totalStars": 15 },
+    "desc": "15 étoiles en logique",
+    "rewardType": "drawing",
+    "rewardTitle": "Coloriage : Le robot rigolo",
+    "rewardDesc": "Un robot à colorier avec plein de boutons !"
+  },
+  {
+    "id": "world_explorer",
+    "title": "Explorateur monde",
+    "emoji": "🌍",
+    "condition": { "cat": "anglais", "totalStars": 10 },
+    "desc": "10 étoiles en anglais",
+    "rewardType": "activity",
+    "rewardTitle": "Activité : Mon imagier anglais",
+    "rewardDesc": "Dessine et colorie ton propre imagier anglais-français !"
+  }
+]

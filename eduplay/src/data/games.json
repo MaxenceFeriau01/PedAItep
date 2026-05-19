@@ -1,0 +1,23 @@
+[
+  { "id": "counting",    "title": "Je compte !",       "emoji": "🔢", "desc": "Compte les animaux rigolos",       "cat": "maths",    "age": "5–7", "color": "#FF8C42", "bg": "#2A1A08", "stars": 3 },
+  { "id": "additions",   "title": "Calcul rapide",      "emoji": "➕", "desc": "Petites additions illustrées",     "cat": "maths",    "age": "7–9", "color": "#FF5733", "bg": "#2A1408", "stars": 2 },
+  { "id": "shapes",      "title": "Les formes",         "emoji": "🔷", "desc": "Carrés, ronds, triangles…",        "cat": "maths",    "age": "5–6", "color": "#3B82F6", "bg": "#0A1A28", "stars": 3 },
+  { "id": "clock",       "title": "L'heure",            "emoji": "⏰", "desc": "Lis l'horloge amusante",          "cat": "maths",    "age": "7–9", "color": "#8B5CF6", "bg": "#160A28", "stars": 2 },
+  { "id": "compare",     "title": "+ grand / + petit",  "emoji": "📏", "desc": "Compare les nombres",              "cat": "maths",    "age": "6–8", "color": "#06B6D4", "bg": "#061A1A", "stars": 3 },
+  { "id": "subtractions","title": "Soustractions",      "emoji": "➖", "desc": "Enlève des fruits du panier",      "cat": "maths",    "age": "7–9", "color": "#E84393", "bg": "#1A0618", "stars": 1 },
+  { "id": "alphabet",    "title": "L'alphabet",         "emoji": "🔤", "desc": "Lettres et sons",                  "cat": "francais", "age": "5–7", "color": "#10B981", "bg": "#061A0E", "stars": 3 },
+  { "id": "syllables",   "title": "Puzzle de mots",     "emoji": "🧩", "desc": "Remets les syllabes dans l'ordre", "cat": "francais", "age": "7–9", "color": "#059669", "bg": "#051410", "stars": 2 },
+  { "id": "firstletter", "title": "1ère lettre",        "emoji": "🔡", "desc": "Quel mot commence par ?",          "cat": "francais", "age": "5–7", "color": "#34D399", "bg": "#081A0A", "stars": 3 },
+  { "id": "sentence",    "title": "Phrase du jour",     "emoji": "📖", "desc": "Construis une phrase correcte",    "cat": "francais", "age": "8–9", "color": "#047857", "bg": "#051208", "stars": 1 },
+  { "id": "dictation",   "title": "Dictée illustrée",   "emoji": "✏️", "desc": "Écoute et choisis le bon mot",     "cat": "francais", "age": "7–9", "color": "#065F46", "bg": "#040E08", "stars": 2 },
+  { "id": "colors",      "title": "Les couleurs",       "emoji": "🎨", "desc": "Associe et reconnais",             "cat": "eveil",    "age": "5–6", "color": "#F59E0B", "bg": "#1A1006", "stars": 3 },
+  { "id": "weather",     "title": "La météo",           "emoji": "🌦️", "desc": "Soleil, pluie, nuages…",          "cat": "eveil",    "age": "5–7", "color": "#0EA5E9", "bg": "#060E1A", "stars": 2 },
+  { "id": "animals",     "title": "Animaux du monde",   "emoji": "🐾", "desc": "Où vit cet animal ?",              "cat": "eveil",    "age": "6–8", "color": "#84CC16", "bg": "#101A06", "stars": 2 },
+  { "id": "seasons",     "title": "Les saisons",        "emoji": "🌱", "desc": "Printemps, été, automne, hiver",  "cat": "eveil",    "age": "5–7", "color": "#22C55E", "bg": "#081A0A", "stars": 3 },
+  { "id": "food",        "title": "Fruits & légumes",   "emoji": "🍎", "desc": "Classe les aliments",              "cat": "eveil",    "age": "5–7", "color": "#EF4444", "bg": "#1A0606", "stars": 2 },
+  { "id": "memory",      "title": "Mémory animaux",     "emoji": "🧠", "desc": "Retrouve les paires cachées",      "cat": "logique",  "age": "6–9", "color": "#A855F7", "bg": "#14082A", "stars": 3 },
+  { "id": "differences", "title": "7 différences",      "emoji": "🔍", "desc": "Qu'est-ce qui a changé ?",        "cat": "logique",  "age": "6–9", "color": "#EC4899", "bg": "#1A0618", "stars": 2 },
+  { "id": "sequence",    "title": "Suite logique",      "emoji": "🌀", "desc": "Quelle image vient après ?",       "cat": "logique",  "age": "7–9", "color": "#6366F1", "bg": "#0A0828", "stars": 2 },
+  { "id": "firstwords",  "title": "First words",        "emoji": "🌐", "desc": "Premiers mots en anglais",         "cat": "anglais",  "age": "6–8", "color": "#64DCFF", "bg": "#060E1A", "stars": 2 },
+  { "id": "colorsen",    "title": "Colors in English",  "emoji": "🎌", "desc": "Red, blue, green…",               "cat": "anglais",  "age": "5–7", "color": "#22D3EE", "bg": "#050C18", "stars": 3 }
+]

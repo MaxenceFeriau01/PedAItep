@@ -1,0 +1,8 @@
+{
+  "id": "additions",
+  "levels": [
+    { "name": "Facile",  "max": 5,  "rounds": 6 },
+    { "name": "Moyen",   "max": 10, "rounds": 8 },
+    { "name": "Difficile","max":20, "rounds": 10 }
+  ]
+}

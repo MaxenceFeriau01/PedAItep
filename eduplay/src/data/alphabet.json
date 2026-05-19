@@ -1,0 +1,15 @@
+{
+  "id": "alphabet",
+  "rounds": [
+    { "emoji": "🍎", "word": "Abricot",   "letter": "A", "choices": ["A","E","O"] },
+    { "emoji": "🐝", "word": "Ballon",    "letter": "B", "choices": ["B","P","D"] },
+    { "emoji": "🐈", "word": "Chat",      "letter": "C", "choices": ["C","S","G"] },
+    { "emoji": "🦕", "word": "Dinosaure", "letter": "D", "choices": ["D","T","B"] },
+    { "emoji": "⭐", "word": "Étoile",    "letter": "E", "choices": ["E","A","I"] },
+    { "emoji": "🔥", "word": "Feu",       "letter": "F", "choices": ["F","V","P"] },
+    { "emoji": "🎂", "word": "Gâteau",    "letter": "G", "choices": ["G","J","C"] },
+    { "emoji": "🏡", "word": "Maison",    "letter": "M", "choices": ["M","N","W"] },
+    { "emoji": "🦁", "word": "Lion",      "letter": "L", "choices": ["L","R","I"] },
+    { "emoji": "🚂", "word": "Train",     "letter": "T", "choices": ["T","D","P"] }
+  ]
+}

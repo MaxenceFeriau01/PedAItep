@@ -1,0 +1,11 @@
+{
+  "id": "seasons",
+  "rounds": [
+    { "image": "☀️🌊🏖️", "season": "été",       "choices": ["printemps","été","automne","hiver"], "hint": "Il fait très chaud, on va à la plage !" },
+    { "image": "❄️⛄🏔️", "season": "hiver",     "choices": ["printemps","été","automne","hiver"], "hint": "Il fait froid, il neige !" },
+    { "image": "🌸🌷🐝", "season": "printemps", "choices": ["printemps","été","automne","hiver"], "hint": "Les fleurs poussent, les oiseaux chantent !" },
+    { "image": "🍂🍁🎃", "season": "automne",   "choices": ["printemps","été","automne","hiver"], "hint": "Les feuilles tombent et deviennent oranges !" },
+    { "image": "🌞🍦🌈", "season": "été",       "choices": ["printemps","été","automne","hiver"], "hint": "On mange des glaces sous le soleil !" },
+    { "image": "⛷️🧣🧤", "season": "hiver",     "choices": ["printemps","été","automne","hiver"], "hint": "On porte un bonnet et une écharpe !" }
+  ]
+}

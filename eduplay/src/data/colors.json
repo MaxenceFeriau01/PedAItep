@@ -1,0 +1,14 @@
+{
+  "id": "colors",
+  "items": [
+    { "name": "rouge",  "hex": "#EF4444", "emoji": "🍎" },
+    { "name": "bleu",   "hex": "#3B82F6", "emoji": "🫐" },
+    { "name": "jaune",  "hex": "#EAB308", "emoji": "🌻" },
+    { "name": "vert",   "hex": "#22C55E", "emoji": "🍀" },
+    { "name": "orange", "hex": "#F97316", "emoji": "🍊" },
+    { "name": "violet", "hex": "#A855F7", "emoji": "🍇" },
+    { "name": "rose",   "hex": "#EC4899", "emoji": "🌸" },
+    { "name": "marron", "hex": "#92400E", "emoji": "🍫" }
+  ],
+  "rounds": 10
+}

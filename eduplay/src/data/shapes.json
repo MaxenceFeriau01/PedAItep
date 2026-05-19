@@ -1,0 +1,13 @@
+{
+  "id": "shapes",
+  "rounds": [
+    { "shape": "circle",   "name": "rond",      "emoji": "⭕", "choices": ["rond","carré","triangle"] },
+    { "shape": "square",   "name": "carré",     "emoji": "🟦", "choices": ["rond","carré","étoile"] },
+    { "shape": "triangle", "name": "triangle",  "emoji": "🔺", "choices": ["triangle","rond","rectangle"] },
+    { "shape": "rectangle","name": "rectangle", "emoji": "▬",  "choices": ["carré","triangle","rectangle"] },
+    { "shape": "star",     "name": "étoile",    "emoji": "⭐", "choices": ["étoile","rond","carré"] },
+    { "shape": "heart",    "name": "cœur",      "emoji": "❤️", "choices": ["cœur","étoile","triangle"] },
+    { "shape": "diamond",  "name": "losange",   "emoji": "🔷", "choices": ["losange","carré","rectangle"] },
+    { "shape": "oval",     "name": "ovale",     "emoji": "🥚", "choices": ["ovale","rond","rectangle"] }
+  ]
+}
