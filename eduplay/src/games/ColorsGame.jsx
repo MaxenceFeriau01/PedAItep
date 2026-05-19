@@ -47,7 +47,6 @@ export default function ColorsGame({ onFinish, onHome }) {
         Touche la couleur <strong style={{ color: 'var(--text)', fontSize: 20 }}>{round.target.name}</strong> !
       </p>
 
-      {/* Big color preview */}
       <div style={{ width: 100, height: 100, borderRadius: '50%', background: round.target.hex, margin: '0 auto 28px', border: '4px solid rgba(255,255,255,0.15)' }} />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 12 }}>
@@ -56,7 +55,8 @@ export default function ColorsGame({ onFinish, onHome }) {
           if (selected === item.name) extra = item.name === round.target.name ? ' correct' : ' wrong'
           else if (selected && item.name === round.target.name) extra = ' correct'
           return (
-            <button key={item.name} className={`answer-btn${extra}`} onClick={() => pick(item)} disabled={selected !== null} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, padding: 16 }}>
+            <button key={item.name} className={`answer-btn${extra}`} onClick={() => pick(item)} disabled={selected !== null}
+              style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, padding: 16 }}>
               <div style={{ width: 48, height: 48, borderRadius: '50%', background: item.hex, border: '3px solid rgba(255,255,255,0.2)' }} />
               <span style={{ fontSize: 14 }}>{item.name}</span>
             </button>

@@ -6,7 +6,7 @@ import GameResult from '../components/GameResult.jsx'
 function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5) }
 
 export default function CountingGame({ onFinish, onHome }) {
-  const rounds = shuffle(data.rounds).slice(0, 6)
+  const [rounds]                = useState(() => shuffle(data.rounds).slice(0, 6))
   const [idx, setIdx]           = useState(0)
   const [score, setScore]       = useState(0)
   const [selected, setSelected] = useState(null)
@@ -19,17 +19,18 @@ export default function CountingGame({ onFinish, onHome }) {
     if (selected !== null) return
     setSelected(val)
     const correct = val === round.count
-    if (correct) setScore(s => s + 1)
+    const newScore = score + (correct ? 1 : 0)
+    if (correct) setScore(newScore)
     setTimeout(() => {
       if (idx + 1 >= rounds.length) {
         setDone(true)
-        onFinish && onFinish(score + (correct ? 1 : 0), rounds.length, stars)
+        onFinish && onFinish(newScore, rounds.length, newScore >= 5 ? 3 : newScore >= 3 ? 2 : 1)
       } else {
         setIdx(i => i + 1)
         setSelected(null)
       }
     }, 900)
-  }, [selected, round, idx, score, rounds.length, stars])
+  }, [selected, round, idx, score, rounds, onFinish])
 
   if (done) return <GameResult score={score} total={rounds.length} stars={stars} onHome={onHome} onReplay={() => window.location.reload()} />
 
@@ -37,23 +38,17 @@ export default function CountingGame({ onFinish, onHome }) {
     <GameShell title="Je compte !" emoji="🔢" current={idx + 1} total={rounds.length} stars={stars} color="#FF8C42">
       <div style={{ textAlign: 'center', marginBottom: 28 }}>
         <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16 }}>Combien y a-t-il de {round.name} ?</p>
-        {/* Animals display */}
         <div style={{ background: 'var(--bg-card2)', borderRadius: 20, padding: '24px 16px', marginBottom: 24, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 8, minHeight: 100, alignItems: 'center' }}>
           {Array.from({ length: round.count }).map((_, i) => (
             <span key={i} style={{ fontSize: 40 }} className="pop">{round.animal}</span>
           ))}
         </div>
       </div>
-
-      {/* Choices */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }}>
         {round.choices.map(c => (
-          <button
-            key={c}
+          <button key={c}
             className={`answer-btn${selected === c ? (c === round.count ? ' correct' : ' wrong') : ''}${selected !== null && c === round.count && selected !== c ? ' correct' : ''}`}
-            onClick={() => pick(c)}
-            disabled={selected !== null}
-          >
+            onClick={() => pick(c)} disabled={selected !== null}>
             {c}
           </button>
         ))}
